@@ -155,3 +155,5 @@ cd frontend
 npm install
 
 npm start
+
+![image alt](https://github.com/Alok8922/smart-campus-placement-portal/blob/e0b52ba80c80bcb91e32074f8db7574154179b42/Screenshot%202025-12-19%20174052.png)
