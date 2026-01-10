@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+🚀 Smart Campus Placement Portal (MERN Stack)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Campus Placement Management System built using the MERN stack that automates job postings, applications, shortlisting, and email notifications.
 
-## Available Scripts
+🔗 GitHub Repository:
+https://github.com/Alok8922/smart-campus-placement-portal
 
-In the project directory, you can run:
+📌 Project Overview
 
-### `npm start`
+The Smart Campus Placement Portal is designed to digitalize and simplify the campus placement process.
+It provides a centralized platform for Students, Companies, and Admins to interact efficiently.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Key highlights:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Role-based access control
 
-### `npm test`
+Real-time job application tracking
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Automatic email notifications on shortlisting
 
-### `npm run build`
+Secure authentication using JWT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧑‍💻 User Roles & Features
+👨‍🎓 Student
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Register & login
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Complete placement profile
 
-### `npm run eject`
+Upload resume
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Apply for jobs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Track application status (Applied / Shortlisted / Rejected)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Receive email notification when shortlisted
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🏢 Company
 
-## Learn More
+Register & login
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Post job openings
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+View applicants
 
-### Code Splitting
+Shortlist or reject students
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Trigger automatic interview email
 
-### Analyzing the Bundle Size
+🛠 Admin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+View all job postings
 
-### Making a Progressive Web App
+Approve or reject jobs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Monitor platform activities
 
-### Advanced Configuration
+Tech Stack
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React.js
 
-### Deployment
+HTML, CSS, JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Axios
 
-### `npm run build` fails to minify
+Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Node.js
+
+Express.js
+
+Database
+
+MongoDB (MongoDB Atlas)
+
+Authentication & Security
+
+JWT (JSON Web Token)
+
+bcrypt.js
+
+Role-based middleware
+
+Additional Tools
+
+Nodemailer (Email notifications)
+
+Multer (Resume upload)
+
+Postman (API testing)
+
+✨ Special Features
+
+🔐 Secure authentication & authorization
+
+📧 Automatic email sent when a student is shortlisted
+
+📄 Resume upload and viewing
+
+🏷 Status badge system (Applied / Shortlisted / Rejected)
+
+🧠 Duplicate application prevention
+
+🏗 Project Structure
+
+mern/
+ ├── backend/
+ │   ├── controllers/
+ │   ├── models/
+ │   ├── routes/
+ │   ├── middleware/
+ │   ├── utils/
+ │   └── server.js
+ │
+ ├── frontend/
+ │   ├── src/
+ │   │   ├── pages/
+ │   │   ├── components/
+ │   │   ├── services/
+ │   │   └── App.js
+ │
+ └── README.md
+
+
+ 
+How to Run the Project Locally
+
+
+
+1️⃣ Clone Repository
+git clone https://github.com/Alok8922/smart-campus-placement-portal.git
+
+
+2️⃣ Backend Setup
+
+cd backend
+
+npm install
+
+npm run dev
+
+Create a .env file in backend with:
+
+PORT=5000
+JWT_SECRET=your_secret_key
+MONGO_URI=your_mongodb_uri
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+
+3️⃣ Frontend Setup
+
+cd frontend  
+
+npm install
+
+npm start
