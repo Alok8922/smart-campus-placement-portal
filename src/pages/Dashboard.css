@@ -1,0 +1,24 @@
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.job-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #1e7e34;
+}
