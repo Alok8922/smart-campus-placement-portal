@@ -4,7 +4,7 @@ A full-stack Campus Placement Management System built using the MERN stack that 
 
 🔗 GitHub Repository:
 https://github.com/Alok8922/smart-campus-placement-portal
-
+ 
 📌 Project Overview
 
 The Smart Campus Placement Portal is designed to digitalize and simplify the campus placement process.
