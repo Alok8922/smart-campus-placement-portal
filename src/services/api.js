@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://placement-backend-ta2e.onrender.com/api",
 });
 
 // 🔐 Attach token ONLY if it exists
